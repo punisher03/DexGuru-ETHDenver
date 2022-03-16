@@ -1,0 +1,30 @@
+[
+    {
+        "update_id": 361872014,
+        "message": {
+            "message_id": 272,
+            "from": {
+                "id": 707549658,
+                "is_bot": false,
+                "first_name": "Rishi K",
+                "username": "Rishi03k",
+                "language_code": "en"
+            },
+            "chat": {
+                "id": 707549658,
+                "first_name": "Rishi K",
+                "username": "Rishi03k",
+                "type": "private"
+            },
+            "date": 1647463078,
+            "text": "/alerts",
+            "entities": [
+                {
+                    "offset": 0,
+                    "length": 7,
+                    "type": "bot_command"
+                }
+            ]
+        }
+    }
+]
