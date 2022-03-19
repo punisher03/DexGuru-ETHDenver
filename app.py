@@ -135,8 +135,7 @@ class Dexguru(object):
     def send_message(self,chat_id, text):
         url='https://api.telegram.org/bot{token}/sendMessage'.format(token=tokens.TG_TOKEN)
         payload = {'chat_id':chat_id , 'text':text}
-        r=requests.post(url, json=payload)
-        return r
+        return requests.post(url, json=payload)
 
     # @app.route('/',methods=['POST','GET'])
     # def index():
