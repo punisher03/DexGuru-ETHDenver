@@ -36,12 +36,20 @@ Get wallet info and recent 5 transaction swap details along with etherscan link 
 
 Sample Commands:- 
 
-1)
+1) Price and Volume 
+
 /price,bsc,bnb
+
 /volume,bsc,bnb
-2)
+
+2) Price and Volume Alerts
+
 /price,higher,bsc,cake,10
+
 /volume,lower,bsc,cake,60000
-3)
+
+3) Wallet Details
+
 /walletinfo,bsc,0x818F478aCC50b8eC70799Cf89767112A61b33e6c
+
 /wallettransactions,bsc,0x818F478aCC50b8eC70799Cf89767112A61b33e6c
