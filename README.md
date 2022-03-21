@@ -12,11 +12,11 @@ Supported Chains - ethereum,bsc,polygon,avalanche,arbitrum,fantom,celo,optimism
 Price Alerts: You can also set price and volume alerts for any token. Put in a message in the below format:
 Set Price Alert:-
 
-**/price,operation,chainName,tokenTicker,priceInUSD **
+**/price,operation,chainName,tokenTicker,priceInUSD**
 
 Set Volume Alert:-
 
-**/volume,operation,chainName,tokenTicker,priceInUSD **
+**/volume,operation,chainName,tokenTicker,priceInUSD**
 
 where operation - "higher" or "lower"
 
@@ -31,3 +31,17 @@ Get wallet info and recent 5 transaction swap details along with etherscan link 
 /walletinfo,chainName,walletAddress - Gives generic info about the wallet
 
 /wallettransactions,chainName,walletAddress - Displays the token swapped in , out and the amount along with the etherscan/bscscan link of the transaction hash of the 5 latest swaps of the given wallet.
+
+
+
+Sample Commands:- 
+
+1)
+/price,bsc,bnb
+/volume,bsc,bnb
+2)
+/price,higher,bsc,cake,10
+/volume,lower,bsc,cake,60000
+3)
+/walletinfo,bsc,0x818F478aCC50b8eC70799Cf89767112A61b33e6c
+/wallettransactions,bsc,0x818F478aCC50b8eC70799Cf89767112A61b33e6c
