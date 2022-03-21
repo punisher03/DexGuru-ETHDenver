@@ -2,6 +2,8 @@
 
 You can use this bot to track prices and volume of tokens , to set price and volume alerts and also to get specific wallet information and transactions. All in one!
 
+This Bot is built using the **Flask** framework, **Dexguru API** , **Telegram API** and deployed on **Heroku**
+
 Get live coin price and volume- Get live price and volume of any token across chains. All you have to do it put a message in the below format
 - /price,chainName,tokenTicker
 
